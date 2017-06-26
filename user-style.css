@@ -1,34 +1,55 @@
 @keyframes user-heart-beat{
     0%   {
-        width: 13px;
-        height: 13px;
+        /*background-color:red;*/
+        
+        /*background-size: 171px 141px;
+        background-position: -42px -114px;
+        */
+
+        width: 16px;
+        height: 16px;
         margin-left: -50%;
         margin-top: -50%;
     }
 
     25%  {
-        
-    }
+        /*background-color:yellow;*/
 
-    50%  {
         width: 6.5px;
         height: 6.5px;
         margin-left: -25%;
         margin-top: -25%;
     }
 
-    75%  {
+    50%  {
+        /*background-color:blue;*/
+        
+        /*background-size: 85.5px 70.5px;
+        background-position: -21px -57px;
+        */
+
         
     }
 
+    75%  {
+        /*background-color:green;*/
+    }
+
     100% {
-        width: 13px;
-        height: 13px;
+        /*background-color:red;*/
+        
+        /*background-size: 171px 141px;
+        background-position: -42px -114px;
+        */
+
+        width: 16px;
+        height: 16px;
         margin-left: -50%;
         margin-top: -50%;
     }
 }
 
+/* THE MAGIC */
 ._9-y._3j7m,
 ._9--._3j7m{
     animation-name: user-heart-beat;
@@ -36,4 +57,9 @@
     animation-iteration-count: infinite;
     
     background: url("//image.ibb.co/fAqq2k/FB_Heart_Big.png") 50% 50% / 100% 100%;
+}
+
+/* REMOVE MASKING IN REACTION STACK */
+.UFILikeSentence ._4ar- ._3emk{
+    background: none;
 }
