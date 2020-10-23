@@ -1,4 +1,4 @@
-# Facebook-Heart-Beat
+# facebook-heart-beat
 
 User style to animate Facebook Love Reaction.
 
